@@ -235,7 +235,7 @@ namespace lab0
         }
         class Boxtester
         {
-            static void Main(string[] args)
+            static void ok(string[] args)
             {
                 Box Box1 = new Box(); // Declare Box1 of type Box
                 Box Box2 = new Box(); // Declare Box2 of type Box
