@@ -166,6 +166,23 @@ namespace lab0
             //    }
             //    a++;    
             //}
+            bool flag = true;
+            do
+            {
+                Console.WriteLine("enter username");
+                string a = Console.ReadLine();
+                Console.WriteLine("enter password");
+                string b = Console.ReadLine();
+                if (a == "muhammad nameer" & b == "hello")
+                {
+                    Console.WriteLine("succes");
+                    flag = false;
+                }
+                else
+                {
+                    Console.WriteLine("enter correct credentials again");
+                }
+            } while (flag);
 
 
 
