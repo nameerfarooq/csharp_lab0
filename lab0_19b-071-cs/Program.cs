@@ -167,22 +167,50 @@ namespace lab0
             //    a++;    
             //}
             bool flag = true;
-            do
-            {
-                Console.WriteLine("enter username");
-                string a = Console.ReadLine();
-                Console.WriteLine("enter password");
-                string b = Console.ReadLine();
-                if (a == "muhammad nameer" & b == "hello")
-                {
-                    Console.WriteLine("succes");
-                    flag = false;
-                }
-                else
-                {
-                    Console.WriteLine("enter correct credentials again");
-                }
-            } while (flag);
+            //do
+            //{
+            //    Console.WriteLine("enter username");
+            //    string a = Console.ReadLine();
+            //    Console.WriteLine("enter password");
+            //    string b = Console.ReadLine();
+            //    if (a == "muhammad nameer" & b == "hello")
+            //    {
+            //        Console.WriteLine("succes");
+            //        flag = false;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("enter correct credentials again");
+            //    }
+            //} while (flag);
+
+
+
+
+
+            //int[] arr = new int[5] {1,2,3,4,5};
+            //foreach (int i in arr)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //String[] arr = new String[4] { "mango", "apple", "grapes", "banana" };
+            //Console.WriteLine("enter a string to search in array");
+            //String a = Console.ReadLine();
+            //bool exists;
+            //if ( exists = arr.Contains(a))
+            //{
+            //    Console.WriteLine(a+" found");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("not found");
+            //}
+            
+
+
+
 
 
 
